@@ -72,7 +72,6 @@ function watchTask() {
       index: 'index.html', //indexファイル名
     },
   });
-  // 第一引数でwatchの対象、第二引数でwatchをいつするかを指定
 
   // 指定したファイルが変更されたらリロードする
   watch('./*.html').on('change', browserSync.reload);
